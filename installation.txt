@@ -1,0 +1,17 @@
+npm i express
+npm i mongoose
+npm i nodemon
+npm i dotenv
+npm i cookie-parser
+npm i jsonwebtoken
+npm i nodemailer
+npm i otp-generator
+npm i bcryt
+npm i cloudinary
+npm i razorpay
+npm install cors
+npm i express-fileupload
+npm i concurrently
+npm i react-icons
+npm i react-type-animation
+npm i @mui/material

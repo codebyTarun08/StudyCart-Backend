@@ -1,0 +1,26 @@
+first of all sendotp and then signup after that login and do operatons
+
+
+How to make a business logic to delete a account after the 5 days of user
+
+
+//TODO:HW- unenroll User from all enrolled courses in Profile controller
+
+how can we schedule the delete operation
+
+What is CRON JOB
+
+Razorpay setup documents
+Proxy Server?
+Razorpay webhook
+
+
+//In Contact Us page : collect the data and send the email to user that their data is collected successfully and sent himself a email that data is received from user
+
+
+
+//State management of course (Idea)- Make a 3 to 4 states of course like draft , pending , approved, published.
+After the course is approved by atleast one admin it is published.
+
+
+//Check in Information Security in networking how many types of data

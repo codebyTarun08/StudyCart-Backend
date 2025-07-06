@@ -1,0 +1,53 @@
+otp-generator ✅ Most Popular
+bash
+Copy
+Edit
+npm install otp-generator
+🔧 Example Usage:
+js
+Copy
+Edit
+const otpGenerator = require('otp-generator');
+
+const otp = otpGenerator.generate(6, {
+  digits: true,
+  alphabets: false,
+  upperCase: false,
+  specialChars: false
+});
+
+console.log(otp); // e.g. "492381"
+✅ Features:
+Custom length
+
+Choose digits/letters/specials
+
+Lightweight
+
+Great for SMS/email-based OTP
+
+2. crypto (built-in Node.js module) 🔐 Secure Option
+If you want to avoid third-party packages and go super secure:
+
+js
+Copy
+Edit
+const crypto = require('crypto');
+
+const otp = crypto.randomInt(100000, 999999).toString();
+console.log(otp); // e.g. "672193"
+✅ Pros:
+No need to install anything
+
+Very secure (true random)
+
+❗ Limitation:
+Only numeric, limited control unless you custom-code
+
+✅ Corporate Recommendation
+Use otp-generator if you need flexibility and want to customize OTP format.
+
+Use crypto if you're focused on pure numeric OTPs and need high entropy (security), especially for financial/critical apps.
+
+💡 Tip: Always store OTPs in DB with an expiry time and hash them using bcrypt or crypto.createHash() for security.
+Want me to show OTP verification flow (backend + frontend) using this package?
