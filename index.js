@@ -36,7 +36,7 @@ app.use(cookieParser());
 //using cors middleware to fulfill the request from frontend
 app.use(
     cors({
-        origin:['http://localhost:3000','https://study-cart.vercel.app/'],
+        origin:['http://localhost:3000','https://study-cart.vercel.app'],
         credentials:true,
 }))
 
