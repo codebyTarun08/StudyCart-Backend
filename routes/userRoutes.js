@@ -2,7 +2,7 @@ const express= require('express');
 const router = express.Router();
 
 //import handlers
-const {signup,login,sendOTP}= require('../controllers/auth')
+const {signup,login,sendOTP}= require('../controllers/Auth')
 const {resetPasswordToken,resetPassword}=require('../controllers/ResetPassword')
 router.post('/signup',signup);
 router.post('/login',login);
